@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author 37533
+ */
+public class EmployeeTest {
+public static void main(String args[]) {
+/* Create two objects by using constructor */
+Employee empOne = new Employee("Bobby Bucket");
+Employee empTwo = new Employee("Shelley Mary");
+// Invoke the methods for each of the objects we created
+empOne.empAge(28);
+empOne.empDesignation("Senior Software Developer");
+empOne.empSalary(1500);
+empOne.printEmployee();
+empTwo.empAge(22);
+empTwo.empDesignation("Software Developer");
+empTwo.empSalary(850);
+empTwo.printEmployee();
+}
+}
