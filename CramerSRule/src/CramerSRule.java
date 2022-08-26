@@ -7,18 +7,19 @@
  *
  * @author 37533
  */
-public class AverageSpeedInKilometers {
+public class CramerSRule {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double u = 24.0*1.6;
-        double t= 1 +(40/60)+ ((35/60)/60);
-        double s = u/t;
-        System.out.println("The average speed of a runner equals "+ Math.round(s) 
-                + " kilometers per  hour");
+        double a, x, y, e, d, b, f, c;
+        a = 3.4; b = 50.2; e = 44.5;
+        c =2.1; d = 0.55; f = 5.9;
+        x=(e*d-b*f)/(a*d-b*c);
+        y=(a*f-e*c)/(a*d-b*c);
+        System.out.println("x = " + x + " and y = "+ y);
     }
     
 }
