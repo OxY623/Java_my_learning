@@ -21,7 +21,7 @@ public class SalesTax {
  
         double tax = purchaseAmount * 0.06;
         double valTax = (tax * 100) / 100.0;
-        System.out.println("Sales tax is $" + Math.ceil(valTax));
+        System.out.println("Sales tax is $"+ Math.ceil(valTax));
         
     }
     
